@@ -1,0 +1,49 @@
+.footer-sushi {
+    background-color: #000000; /* Nero assoluto per il massimo contrasto */
+    color: #ffffff;
+    border-top: 3px solid #d4af37;
+}
+
+
+.text-gold {
+    color: #d4af37 !important;
+}
+
+.bg-gold {
+    background-color: #d4af37 !important;
+}
+
+.border-gold {
+    border-color: #d4af37 !important;
+}
+
+
+.footer-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d4af37;
+    color: #d4af37;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    background-color: #d4af37;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+.hover-gold:hover {
+    color: #d4af37 !important;
+    text-decoration: underline !important;
+}
+
+/* Badge per l'asporto */
+.bg-gold.text-dark {
+    font-weight: 700;
+}

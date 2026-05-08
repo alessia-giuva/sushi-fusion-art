@@ -1,0 +1,75 @@
+.about-page {
+    min-height: 100vh;
+}
+
+.about-hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('/images/hero-about.jpg') center/cover no-repeat;
+    height: 40vh;
+}
+
+.text-gold {
+    color: #d4af37 !important;
+}
+
+.border-gold {
+    border-color: #d4af37 !important;
+}
+
+.bg-dark-soft {
+    background-color: #121212;
+}
+
+.text-muted-light {
+    color: #cccccc;
+}
+
+.btn-gold {
+    background-color: #d4af37;
+    color: #000;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+    background-color: #b8962d;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+}
+
+.value-card {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.value-card:hover {
+    background-color: rgba(212, 175, 55, 0.05);
+    transform: translateY(-10px);
+}
+
+
+.display-4 {
+    font-size: 3rem;
+}
+
+
+@media (min-width: 992px) {
+    .text-end-lg {
+        text-align: right;
+    }
+}
+
+
+.img-fluid.border-gold {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.img-fluid.border-gold:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.3);
+}
+
+
+strong {
+    color: #d4af37;
+    font-weight: 600;
+}

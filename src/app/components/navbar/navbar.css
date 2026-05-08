@@ -1,0 +1,42 @@
+
+.bg-sushi-dark {
+  background-color: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(10px);
+  
+}
+
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent; 
+  padding-bottom: 5px; 
+}
+
+.nav-link:hover {
+  color: #d4af37 !important;
+}
+
+
+.active-gold {
+  color: #d4af37 !important;
+
+  border-bottom: 2px solid #d4af37 !important; 
+}
+
+
+.text-gold {
+  color: #d4af37;
+  letter-spacing: 3px;
+}
+
+.italic {
+  font-style: italic;
+  font-family: 'Georgia', serif;
+}
+
+.btn-outline-gold {
+  color: #d4af37;
+  border: 1px solid #d4af37;
+  transition: all 0.4s ease;
+}

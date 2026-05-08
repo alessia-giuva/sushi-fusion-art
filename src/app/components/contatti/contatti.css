@@ -1,0 +1,63 @@
+.contact-page {
+    min-height: 80vh;
+}
+
+
+.bg-dark-card {
+    background-color: #121212;
+}
+
+.text-gold {
+    color: #d4af37 !important;
+}
+
+.border-gold {
+    border-color: #d4af37 !important;
+}
+
+.border-gold-subtle {
+    border-color: rgba(212, 175, 55, 0.3) !important;
+}
+
+
+.custom-input {
+    background-color: #1a1a1a;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    padding: 0.8rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.custom-input:focus {
+    background-color: #1a1a1a;
+    border-color: #d4af37;
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.2);
+    color: #ffffff;
+}
+
+.custom-input::placeholder {
+    color: #666666;
+}
+
+
+.btn-gold {
+    background-color: #d4af37;
+    color: #000;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+    background-color: #b8962d;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+}
+
+/* Icone */
+.bi-geo-alt-fill, .bi-telephone-fill, .bi-envelope-fill {
+    transition: transform 0.3s ease;
+}
+
+.bg-dark-card:hover i {
+    transform: scale(1.1);
+}
